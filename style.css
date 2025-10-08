@@ -19,7 +19,7 @@ body {
     text-decoration: underline;
   }
   
-  /* Image styling + watermark protection */
+  
   .profile-photo-container {
     position: relative;
     display: inline-block;
@@ -42,7 +42,7 @@ body {
   }
   
   .profile-photo-container::after {
-    pointer-events: none; /* makes it unclickable */
+    pointer-events: none; 
   }
   
   #expert-topics {
